@@ -4,7 +4,7 @@
 angular.
 module('mainModule').
 component('headerComponent', {
-    templateUrl: './demoApp/header.component/header.component.html',
+    templateUrl: '/demoApp/header.component/header.component.html',
     controller: ["$scope",
         function headerController($scope) {
             var headerVm = this;
@@ -17,8 +17,6 @@ component('headerComponent', {
                 	elem.className = "slide-left__unorderd_list"
                 }
             }
-
-            console.log($scope);
         }
     ]
 });

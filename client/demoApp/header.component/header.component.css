@@ -1,7 +1,6 @@
 nav ul {
     width: 100%;
     margin: 0px;
-
 }
 
 nav ul {
@@ -21,7 +20,7 @@ ul.slide-left__unorderd_list li a {
     text-decoration: none;
     text-align: center;
     min-height: 16px;
-    padding: 14px;
+    padding: 18px;
     text-transform: uppercase;
     color: #666;
 }
@@ -29,6 +28,7 @@ ul.slide-left__unorderd_list li a {
 ul.slide-left__unorderd_list li a:hover {
     background-color: #0080ff;
     color: #fff;
+    font-weight: bold;
 }
 
 ul.slide-left__unorderd_list li.slide-right__list {

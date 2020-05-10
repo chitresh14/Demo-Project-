@@ -7,7 +7,7 @@ const router = express.Router();
 // Default routes
 
 router.get('*', function(req, res) {
-    res.sendfile(path.join(__dirname, "../../client/index.html")); // load the single view file (angular will handle the page changes on the front-end)
+    res.sendFile(path.join(__dirname, "../../client/index.html")); // load the single view file (angular will handle the page changes on the front-end)
 });
 
 module.exports = router;

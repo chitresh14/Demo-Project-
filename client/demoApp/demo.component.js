@@ -4,10 +4,9 @@
 angular.
   module('mainModule').
   component('mainApp', {
-    templateUrl: './demoApp/demo.component.html',
+    templateUrl: '/demoApp/demo.component.html',
     controller: [
       function mainAppController() {
-        console.log("QWERTY!!!!!!!!!!")
       }
     ]
   });
