@@ -11,22 +11,26 @@ component('mainComponent', {
             mainVm.cardDetails = [{
                 "title": "Title 1",
                 "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porta dolor. Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
-                "btnTitle": "Click Here 1"
+                "btnTitle": "Click Here 1",
+                "navigateTo": "/masterAdmin"
             },
             {
                 "title": "Title 2",
                 "details": "Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
-                "btnTitle": "Click Here 2"
+                "btnTitle": "Click Here 2",
+                "navigateTo": "#/adminMaster1"
             },
             {
                 "title": "Title 3",
                 "details": "Aliquam at porta dolor. Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
-                "btnTitle": "Click Here 3"
+                "btnTitle": "Click Here 3",
+                "navigateTo": "/adminMaster2"
             },
             {
                 "title": "Title 4",
                 "details": "Aliquam at porta dolor. Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
-                "btnTitle": "Click Here 4"
+                "btnTitle": "Click Here 4",
+                "navigateTo": "/adminMaster3"
             }]
         }
     ]

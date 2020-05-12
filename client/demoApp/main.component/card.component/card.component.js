@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 // // Register `mainCardComponent` component, along with its associated controller and template
 angular.

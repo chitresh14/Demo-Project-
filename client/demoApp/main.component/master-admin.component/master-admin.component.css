@@ -1,0 +1,98 @@
+.mater-admin-container__div {
+    background-color: #f5f5f5;
+}
+
+.master-admin-main-title__div {
+    margin: 0;
+    padding: 0;
+}
+
+.master-admin-main-title__header {
+    padding: 0;
+    display: block;
+    padding-left: 32px;
+    margin: 15px 0px 15px;
+}
+
+.main-admin-configure-container__div {
+    height: auto;
+    background-color: #fff;
+    box-shadow: -1px 1px 4px 0px #888888;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.admin-master-column-container__div {
+    /*background-color: #f5f5f5;*/
+}
+
+.main-admin-configure__header {
+    margin-top: 10px;
+    padding-left: 12px;
+}
+
+.main-admin-configure-inner-container__div {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.admin-master-column-inner-content__div {
+    /*width: 96%;
+    margin: 2%;*/
+    padding: 0px;
+}
+
+.main-admin-header-content__div {
+    padding: 2%;
+}
+
+#mainHeaderInputBox {
+    background-image: url(/demoApp/assets/search-13-16.png);
+    background-position: 97% 53%;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 16px;
+    float: right;
+    padding: 2%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.main-admin-card__icons {
+    height: 40px;
+    width: 40px;
+}
+
+.main-admin-card-content__details {
+    margin: 0px;
+    padding: 3px 0px 0px 0px;
+}
+
+.main-admin-card-content-inner__div {
+    margin: 0px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.main-admin-card-content-inner__header {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.main-admin-card-content-inner__paragraph-div{
+	width: 100%;
+	display:block;
+	text-align: left;
+}
+.main-admin-card-content-inner__paragraph {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
