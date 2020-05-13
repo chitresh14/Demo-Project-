@@ -48,6 +48,13 @@
     padding: 2%;
 }
 
+.main-admin-header-content-row__div {
+    padding: 0px 20px 0 20px;
+    margin: 0px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
 #mainHeaderInputBox {
     background-image: url(/demoApp/assets/search-13-16.png);
     background-position: 97% 53%;
@@ -55,7 +62,7 @@
     width: 60%;
     font-size: 16px;
     float: right;
-    padding: 2%;
+    padding: 1.5%;
     border: 2px solid #ddd;
     border-radius: 5px;
 }
@@ -83,11 +90,12 @@
     font-weight: bold;
 }
 
-.main-admin-card-content-inner__paragraph-div{
-	width: 100%;
-	display:block;
-	text-align: left;
+.main-admin-card-content-inner__paragraph-div {
+    width: 100%;
+    display: block;
+    text-align: left;
 }
+
 .main-admin-card-content-inner__paragraph {
     display: block;
     display: -webkit-box;

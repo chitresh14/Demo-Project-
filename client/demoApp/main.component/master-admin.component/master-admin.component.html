@@ -16,15 +16,15 @@
                 <div class="col-lg-12 admin-master-column-container__div admin-master-column-inner-content__div">
                     <div class="row main-admin-configure-inner-container__div">
                         <div class="col-sm-6 main-admin-header-content__div">
-                            <h4><b>Admin Masters ({{$ctrl.cardContents.length || '0'}})</b></h4>
+                            <h4><b>Admin Masters ({{($ctrl.cardContents|filter:searchText).length || '0'}})</b></h4>
                         </div>
                         <div class="col-sm-6 main-admin-header-content__div">
-                            <input type="text" id="mainHeaderInputBox" placeholder="Search" title="Type in a name" ng-model="searchText.title">
+                            <input type="text" id="mainHeaderInputBox" placeholder="Search" title="Type in a name" ng-model="searchText">
                         </div>
                     </div>
-                    <div class="row" style="padding: 0px 20px 0 20px; margin: 0px">
+                    <div class="row main-admin-header-content-row__div">
                         <div class="col-sm-3 main-admin-header-content__div" style="text-align: center;" ng-repeat="(key, value) in $ctrl.cardContents | filter:searchText">
-                            <div class="row main-admin-configure-inner-container__div">
+                            <div class="row main-admin-configure-inner-container__div" style="cursor: pointer;" ng-click="$ctrl.showMsg(value.title)">
                                 <div class="col-sm-3 main-admin-configure-inner-container__div" style="padding-top: 5px;">
                                     <img class="main-admin-card__icons" src="/demoApp/assets/university-solid.svg" ng-src="{{value.cardIconPath}}"></div>
                                 <div class="col-sm-9 main-admin-card-content__details">
@@ -32,13 +32,14 @@
                                         <h5 class="main-admin-card-content-inner__header">{{value.title}}</h5>
                                     </div>
                                     <div class="main-admin-card-content-inner__paragraph-div">
-                                    	<p class="main-admin-card-content-inner__paragraph">
+                                    	<p class="main-admin-card-content-inner__paragraph" data-toggle="tooltip" data-placement="bottom" title="{{value.content}}">
                                     		{{value.content}}
                                     	</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="main-admin-header-content__div" ng-show="($ctrl.cardContents|filter:searchText).length==0" style="font-weight: bold; text-align: center; padding-top: 10%;">No Records Found</div>  
                     </div>
                 </div>
             </div>

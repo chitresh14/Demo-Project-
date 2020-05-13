@@ -9,16 +9,16 @@ component('mainComponent', {
         function mainController($scope) {
             var mainVm = this;
             mainVm.cardDetails = [{
-                "title": "Title 1",
-                "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porta dolor. Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
-                "btnTitle": "Click Here 1",
+                "title": "Admin Master Page",
+                "details": "Component contains admin master content cards and details of it.",
+                "btnTitle": "Click Here",
                 "navigateTo": "/masterAdmin"
             },
             {
-                "title": "Title 2",
+                "title": "Avatars",
                 "details": "Sed et odio in purus dapibus pulvinar. Aliquam erat volutpat. Nullam interdum placerat ligula in hendrerit.",
                 "btnTitle": "Click Here 2",
-                "navigateTo": "#/adminMaster1"
+                "navigateTo": "/avatarUpload"
             },
             {
                 "title": "Title 3",

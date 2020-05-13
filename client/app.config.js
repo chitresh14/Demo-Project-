@@ -12,6 +12,9 @@ angular.
         when('/masterAdmin', {
           template: '<master-admin-component style="background-color: #f5f5f5;"></master-admin-component>'
         }).
+        when('/avatarUpload', {
+          template: '<avatar-upload-component></avatar-upload-component>'
+        }).
         otherwise('/demo');
     }
   ]);
